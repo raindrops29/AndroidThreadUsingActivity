@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\AndroidStudioProjects\\6_1_1_AndroidThreadUsingActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\handler_message_using_layout.xml",
+        "source": "C:\\AndroidStudioProjects\\6_1_1_AndroidThreadUsingActivity\\app\\src\\main\\res\\layout\\handler_message_using_layout.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\6_1_1_AndroidThreadUsingActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\thread_simple_1_layout.xml",
+        "source": "C:\\AndroidStudioProjects\\6_1_1_AndroidThreadUsingActivity\\app\\src\\main\\res\\layout\\thread_simple_1_layout.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\6_1_1_AndroidThreadUsingActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\asynctask_using_layout.xml",
+        "source": "C:\\AndroidStudioProjects\\6_1_1_AndroidThreadUsingActivity\\app\\src\\main\\res\\layout\\asynctask_using_layout.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\6_1_1_AndroidThreadUsingActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\runnable_simple_1_layout.xml",
+        "source": "C:\\AndroidStudioProjects\\6_1_1_AndroidThreadUsingActivity\\app\\src\\main\\res\\layout\\runnable_simple_1_layout.xml"
+    },
+    {
+        "merged": "C:\\AndroidStudioProjects\\6_1_1_AndroidThreadUsingActivity\\app\\build\\intermediates\\res\\merged\\debug\\layout\\post_runnable_using_layout.xml",
+        "source": "C:\\AndroidStudioProjects\\6_1_1_AndroidThreadUsingActivity\\app\\src\\main\\res\\layout\\post_runnable_using_layout.xml"
+    }
+]

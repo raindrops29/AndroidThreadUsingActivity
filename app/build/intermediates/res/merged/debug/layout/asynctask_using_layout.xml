@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="AsyncTaskThread 예제!"
+		android:textStyle="bold"
+		android:gravity="center"
+		android:textSize="20sp" />
+	<EditText
+	    android:gravity="top|left"
+	    android:id="@+id/back_ground_message"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="증가치 = "
+		android:textStyle="bold"
+		android:textSize="20sp" />
+	<Button
+		android:text="AsyncTask 시작"
+		android:textStyle="bold"
+		android:id="@+id/btn_asynctask_thread"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="top|center">
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1"
+		android:text="Thread 사용한 쓰레드 예제1"
+		android:textStyle="bold"
+		android:textSize="20sp" />
+	<EditText
+		android:text="Main UI Thread 값"
+		android:layout_width="match_parent"
+		android:id="@+id/main_edit"
+		android:textColor="#0000ff"
+		android:textStyle="bold"
+		android:layout_height="wrap_content" 
+		android:textSize="15sp"/>
+	<EditText
+		android:text="Back Ground Thread1 값"
+		android:layout_width="match_parent"
+		android:id="@+id/back_edit_1"
+		android:textSize="15sp"
+		android:textStyle="bold"
+		android:textColor="#ff0000"
+		android:layout_height="wrap_content" />
+	<EditText
+		android:text="Back Ground Thread2 값"
+		android:layout_width="match_parent"
+		android:id="@+id/back_edit_2"
+		android:textSize="15sp"
+		android:textStyle="bold"
+		android:textColor="#ff0000"
+		android:layout_height="wrap_content" />
+    <LinearLayout
+    	android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    >
+	   <ToggleButton
+		android:layout_width="fill_parent"
+		android:id="@+id/btn_thread_toggle"
+		android:layout_height="wrap_content"
+		android:textOn="쓰레드시작"
+		android:textStyle="bold"
+		android:textOff="쓰레드종료"
+		android:checked="true"
+		android:layout_weight="1"
+		/>
+   </LinearLayout>
+   <LinearLayout
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	   <Button
+		android:layout_width="wrap_content"
+		android:id="@+id/btn_thread_result"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:textStyle="bold"
+		android:text="전체쓰레드결과값"/>
+	  <Button
+		android:layout_width="wrap_content"
+		android:id="@+id/btn_ui_thread_increment"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:textStyle="bold"
+		android:text="MainThread증가"/>	
+   </LinearLayout>
+</LinearLayout>
